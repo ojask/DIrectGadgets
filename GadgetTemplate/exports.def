@@ -1,0 +1,4 @@
+LIBRARY GadgetTemplate
+   EXPORTS
+     GadgetInit
+	 GetTileData

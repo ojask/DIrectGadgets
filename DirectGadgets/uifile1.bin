@@ -1,0 +1,140 @@
+<duixml>
+	<stylesheets>
+		<style resid="MetalDark">
+			<if class="TouchButton">
+				<TouchButton borderthickness="rect(10,10,10,10)" padding="rect(-10rp,-10rp,-10rp,-10rp)" Background="resbmp(132, 7, -1, 0, 0, 1, 1)" foreground="rgb(255,255,255)" contentalign="middlecenter" font="10pt;Semibold;None;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton Background="resbmp(131, 7, -1, 0, 0, 1, 1)"/>
+				</if>
+				<if pressed="true">
+					<TouchButton Background="resbmp(133, 7, -1, 0, 0, 1, 1)"/>
+				</if>
+			</if>
+			<if class="NormalGradientBG">
+				<Element background="gradient(rgb(51,51,51), rgb(21,21,21),1)"/>
+			</if>
+			<if class="leftcorners">
+				<Element width="6rp" borderthickness="rect(0,6rp,0,6rp)" background="resbmp(134, 7, -1, 0, 0, 1, 1)"/>
+			</if>
+			<if class="rightcorners">
+				<Element width="6rp" borderthickness="rect(0,6rp,0,6rp)" background="resbmp(135, 7, -1, 0, 0, 1, 1)"/>
+			</if>
+			<if class="LinkSmall">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentLight3" font="9pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(255,255,255)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(230,230,230)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="LinkMedium">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentLight3" font="12pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(255,255,255)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(230,230,230)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="LinkLarge">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentLight3" font="16pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(255,255,255)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(230,230,230)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="LinkExtraLarge">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentLight3" font="24pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(255,255,255)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(230,230,230)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="TextLabelSmall">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(255,255,255)" font="9pt;Semibold;None;Segoe UI"/>
+			</if>
+			<if class="TextLabelMedium">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(255,255,255)" font="12pt;Semibold;None;Segoe UI"/>
+			</if>
+			<if class="TextLabelLarge">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(255,255,255)" font="16pt;Semibold;None;Segoe UI"/>
+			</if>
+			<if class="TextLabelExtraLarge">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(255,255,255)" font="24pt;Semibold;None;Segoe UI"/>
+			</if>
+		</style>
+		<style resid="Metal">
+			<if class="TouchButton">
+				<TouchButton borderthickness="rect(10,10,10,10)" padding="rect(-10rp,-10rp,-10rp,-10rp)" Background="resbmp(137, 7, -1, 0, 0, 1, 1)" foreground="rgb(0,0,0)" contentalign="middlecenter" font="10pt;Semibold;None;Segoe UI" />
+				<if mousefocused="true">
+					<TouchButton Background="resbmp(136, 7, -1, 0, 0, 1, 1)"/>
+				</if>
+				<if pressed="true">
+					<TouchButton Background="resbmp(138, 7, -1, 0, 0, 1, 1)"/>
+				</if>
+			</if>
+			<if class="NormalGradientBG">
+				<Element background="gradient(rgb(255,255,255), rgb(172,172,172),1)"/>
+			</if>
+			<if class="leftcorners">
+				<Element width="6rp" borderthickness="rect(0,6rp,0,6rp)" background="resbmp(134, 7, -1, 0, 0, 1, 1)"/>
+			</if>
+			<if class="rightcorners">
+				<Element width="6rp" borderthickness="rect(0,6rp,0,6rp)" background="resbmp(135, 7, -1, 0, 0, 1, 1)"/>
+			</if>
+			<if class="LinkSmall">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentDark2" font="9pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(20,20,20)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(0,0,0)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="LinkMedium">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentDark2" font="12pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(20,20,20)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(0,0,0)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="LinkLarge">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentDark2 " font="16pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(20,20,20)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(0,0,0)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="LinkExtraLarge">
+				<TouchButton background="argb(0,0,0,0)" foreground="ImmersiveSystemAccentDark2" font="24pt;Semibold;Underline;Segoe UI"/>
+				<if mousefocused="true">
+					<TouchButton foreground="rgb(20,20,20)" cursor="hand"/>
+				</if>
+				<if pressed="true">
+					<TouchButton foreground="rgb(0,0,0)" cursor="hand"/>
+				</if>
+			</if>
+			<if class="TextLabelSmall">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(0,0,0)" font="9pt;Semibold;None;Segoe UI"/>
+			</if>
+			<if class="TextLabelMedium">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(0,0,0)" font="12pt;Semibold;None;Segoe UI"/>
+			</if>
+			<if class="TextLabelLarge">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(0,0,0)" font="16pt;Semibold;None;Segoe UI"/>
+			</if>
+			<if class="TextLabelExtraLarge">
+				<Richtext background="argb(0,0,0,0)" foreground="rgb(0,0,0)" font="24pt;Semibold;None;Segoe UI"/>
+			</if>
+		</style>
+	</stylesheets>
+</duixml>
