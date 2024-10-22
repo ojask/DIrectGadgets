@@ -1,0 +1,10 @@
+<duixml>
+	<HWNDElement resid="Slideshow" background="window" layout="filllayout()">
+		<Element id="atom(mainbg)" background="resbmp(102,4,-1,0,0,1,1)" width="300rp" height="150rp" layout="borderlayout()">
+			
+		</Element>
+		<Element background="argb(50,0,0,0)" layoutpos="client" width="300rp" height="150rp"/>
+		<Element class="leftcorners" layoutpos="left"/>
+		<Element class="rightcorners" layoutpos="right"/>
+	</HWNDElement>
+</duixml>

@@ -1,0 +1,4 @@
+LIBRARY Slideshow
+   EXPORTS
+     GadgetInit
+	 GetTileData
