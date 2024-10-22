@@ -1,0 +1,33 @@
+<duixml>
+	<HWNDElement resid="Weather" background="window" layout="filllayout()">
+		<Element class="NormalGradientBG" layoutpos="left" layout="borderlayout()">
+			<Element id="atom(weatherBG)" Background="resbmp(102, 7, -1, 0, 0, 1, 1)" layoutpos="left" width="150rp" layout="borderlayout()">
+				<Richtext class="TextLabelLarge" foreground="rgb(255,255,255)" id="atom(city)" padding="rect(8rp,8rp,0,0)" content="Please wait..." layoutpos="top"/>
+				<Richtext class="TextLabelExtraLarge" foreground="rgb(255,255,255)" id="atom(temperature)" padding="rect(5rp,35rp,0,0)" content="" layoutpos="top"/>
+				<Richtext class="TextLabelMedium" foreground="rgb(255,255,255)" id="atom(feelslike)" padding="rect(9rp,0,0,0)" content="" layoutpos="top"/>
+			</Element>
+			<Element layoutpos="right" background="argb(0,0,0,0)" width="150rp" layout="borderlayout()">
+				<Element layoutpos="top" padding="rect(6rp,6rp,0,0)" layout="borderlayout()">
+					<RichText class="TextLabelMedium" id="atom(weatherText)" padding="rect(0,0,0,0)" layoutpos="left" />
+				</Element>
+				<Element layoutpos="top" padding="rect(6rp,5rp,0,0)" layout="borderlayout()">
+					<RichText class="TextLabelSmall" content="Precipitation:" layoutpos="left" />
+					<RichText class="TextLabelSmall" id="atom(precipitation)" padding="rect(0,0,6rp,0)" layoutpos="right" />
+				</Element>
+				<Element layoutpos="top" padding="rect(6rp,2rp,0,0)" layout="borderlayout()">
+					<RichText class="TextLabelSmall" content="Winds:" layoutpos="left" />
+					<RichText class="TextLabelSmall" id="atom(winds)" padding="rect(0,0,6rp,0)" layoutpos="right"/>
+				</Element>
+				<Element layoutpos="top" padding="rect(6rp,2rp,0,0)" layout="borderlayout()">
+					<RichText class="TextLabelSmall" content="Angle:" layoutpos="left"/>
+					<RichText class="TextLabelSmall" id="atom(angle)" padding="rect(0,0,6rp,0)" layoutpos="right"/>
+				</Element>
+				<Element layoutpos="top" padding="rect(6rp,20rp,0,0)" layout="flowlayout(0,2,2,0)">
+					<TouchButton class="TouchButton" id="atom(config)" height="26rp" width="103rp" content="Configure..."/>
+				</Element>
+			</Element>
+		</Element>
+		<Element class="leftcorners" layoutpos="left"/>
+		<Element class="rightcorners" layoutpos="right"/>
+	</HWNDElement>
+</duixml>

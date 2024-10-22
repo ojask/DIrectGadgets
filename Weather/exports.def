@@ -1,0 +1,4 @@
+LIBRARY Weather
+   EXPORTS
+     GadgetInit
+	 GetTileData
