@@ -1,0 +1,9 @@
+<duixml>
+	<HWNDElement resid="SampleGadget" background="window" layout="filllayout()">
+		<Element class="NormalGradientBG" layoutpos="client" layout="flowlayout(0,2,2,0)">
+			<Element content="sample widget"/>
+		</Element>
+		<Element class="leftcorners" layoutpos="left"/>
+		<Element class="rightcorners" layoutpos="right"/>
+	</HWNDElement>
+</duixml>
