@@ -1,0 +1,47 @@
+<duixml>
+	<HWNDElement resid="News" background="window" layout="filllayout()">
+		<Element class="NormalGradientBG" width="300rp" height="400rp" layout="borderlayout()">
+			<Element layout="borderlayout()" background="argb(0,0,0,0)" layoutpos="top">
+				<Richtext class="TextLabelLarge" padding="rect(10rp,10rp,0,0)" id="atom(date)" content="" layoutpos="left"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<TouchButton class="LinkMedium" id="atom(headline1)" padding="rect(10rp,10rp,0,0)" content="" contentalign="endellipsis" layoutpos="left" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<Richtext class="TextLabelSmall" id="atom(mainline1)" padding="rect(10rp,5rp,0,0)" content="" contentalign="wrapleft | endellipsis" height="50rp" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<TouchButton class="LinkMedium" id="atom(headline2)" padding="rect(10rp,5rp,0,0)" content="" contentalign="endellipsis" layoutpos="left" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<Richtext class="TextLabelSmall" id="atom(mainline2)" padding="rect(10rp,5rp,0,0)" content="" contentalign="wrapleft | endellipsis" height="50rp" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<TouchButton class="LinkMedium" id="atom(headline3)" padding="rect(10rp,5rp,0,0)" content="" contentalign="endellipsis" layoutpos="left" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<Richtext class="TextLabelSmall" id="atom(mainline3)" padding="rect(10rp,5rp,0,0)" content="" contentalign="wrapleft | endellipsis" height="50rp" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<TouchButton class="LinkMedium" id="atom(headline4)" padding="rect(10rp,5rp,0,0)" content="" contentalign="endellipsis" layoutpos="left" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="top" layout="flowlayout()">
+				<Richtext class="TextLabelSmall" id="atom(mainline4)" padding="rect(10rp,5rp,0,0)" content="" contentalign="wrapleft | endellipsis" height="50rp" width="280rp"/>
+			</Element>
+			<Element background="argb(0,0,0,0)" layoutpos="bottom" layout="borderlayout()">
+				<Element layout="flowlayout()" padding="rect(10rp,10rp,0,0)" layoutpos="left">
+					<TouchButton class="TouchButton" id="atom(config)" height="26rp" width="103rp" content="Configure..."/>
+				</Element>
+				<Element layout="flowlayout()" padding="rect(0,10rp,10rp,10rp)" layoutpos="right">
+					<TouchButton class="TouchButton" id="atom(down)" height="26rp" width="26rp" font="12pt;Normal;None;Segoe Fluent Icons" content="resstr(102)"/>
+				</Element>
+				<Element layout="flowlayout()" padding="rect(0,10rp,10rp,10rp)" layoutpos="right">
+					<TouchButton class="TouchButton" id="atom(up)" height="26rp" width="26rp" font="12pt;Normal;None;Segoe Fluent Icons" content="resstr(103)"/>
+				</Element>
+				<Richtext class="TextLabelSmall" id="atom(quantity)" content="" layoutpos="right" padding="rect(0,0,10rp,0)" contentalign="middlecenter"/>
+			</Element>
+		</Element>
+		<Element class="leftcorners" layoutpos="left"/>
+		<Element class="rightcorners" layoutpos="right"/>
+	</HWNDElement>
+</duixml>
